@@ -56,6 +56,10 @@ export default {
                 this.navigate()
                 localStorage.setItem("loginType", "3")
                 return 3;
+            } else if (username === 'user3' && password === 'password') {
+                this.navigate()
+                localStorage.setItem("loginType", "3")
+                return 3;
             } else {
                 return 0;
             }
